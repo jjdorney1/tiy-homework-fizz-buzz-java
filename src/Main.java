@@ -4,9 +4,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        FizzBuzz fizzbuzz = new FizzBuzz(1, 100);
+        FizzBuzz fizzbuzz = new FizzBuzz();
 
-
+        fizzbuzz.doIt(1, 100);
 
 
 
